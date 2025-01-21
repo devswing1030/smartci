@@ -1,0 +1,6 @@
+._*
+__pycache__/
+/.idea
+build
+PySmartCi.egg-info
+dist
