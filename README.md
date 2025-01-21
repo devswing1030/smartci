@@ -32,7 +32,7 @@ vcs:
           - product_source
     - type: git
       url: http://127.0.0.1:8890
-      access_token: glpat-GkcdZKE-1ms1xb_-XCW_
+      access_token: test-token
 ```
 
 The tool library primarily provides access to application repositories. An application repository refers to a repository that stores application source code. For GitLab, this corresponds to a project; for SVN, this is a path configured with branch management strategies. The tool treats paths on SVN servers containing a "trunk" subdirectory as application repositories. All application repositories configured on VCS can be managed uniformly, allowing users to access them via a unified interface without needing to concern themselves with the specifics of the underlying VCS.
